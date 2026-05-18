@@ -1,0 +1,85 @@
+body {
+    background-color: #f4f7fc;
+    font-family: Arial, sans-serif;
+}
+
+.summary-card {
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.summary-card:hover {
+    transform: translateY(-5px);
+}
+
+.budget-card {
+    background: linear-gradient(135deg, #4e73df, #224abe);
+}
+
+.expense-card {
+    background: linear-gradient(135deg, #e74a3b, #be2617);
+}
+
+.remaining-card {
+    background: linear-gradient(135deg, #1cc88a, #13855c);
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+table {
+    vertical-align: middle;
+}
+
+canvas {
+    max-height: 400px;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .table {
+    color: white;
+}
+
+.dark-mode .form-control,
+.dark-mode .form-select {
+    background-color: #2c2c2c;
+    color: white;
+    border: 1px solid #444;
+}
+
+.dark-mode .form-control::placeholder {
+    color: #ccc;
+}
+
+.dark-mode .table-dark {
+    background-color: #000;
+}
+
+.card,
+.btn,
+table tr {
+    transition: all 0.3s ease;
+}
+
+table tr:hover {
+    transform: scale(1.01);
+}
